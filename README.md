@@ -1,2 +1,3 @@
 The website for Phoenix.
-Hosted on Vercel
+
+Hosted on Vercel.
