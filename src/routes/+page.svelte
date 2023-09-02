@@ -3,7 +3,7 @@
     import { MetaTags } from "svelte-meta-tags";
 
     const download = () => {
-        window.open('https://github.com/jxhug/Phoenix/releases/download/v0.0.6/Phoenix.zip')
+        window.open('https://github.com/PhoenixLauncher/Phoenix/releases/download/v0.0.8-alpha/Phoenix.dmg')
     }
 </script>
 
