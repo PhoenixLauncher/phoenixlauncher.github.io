@@ -36,15 +36,21 @@
 
 <div class="font-apple bg-white dark:bg-darkergray w-screen snap-y snap-mandatory flex flex-col overflow-y-scroll" id="main">
     <div class="w-screen h-screen bg-gradient-to-b from-orange-100 dark:from-orange-900 snap-start">
-        <div class="h-[93vh] flex flex-col justify-center items-center space-y-6">  
-            <h1 class="translate-y-12 text-[5.5rem] lg:text-[8rem] xl:text-[10rem] font-bold bg-orange-gradient bg-clip-text text-transparent animate-gradient-cycle bg-200%">Phoenix</h1>
-            <h2 class="text-xl md:text-2xl lg:text-[3rem] xl:text-[4rem] font-semibold text-center text-orange-600">A beautiful macOS game launcher</h2>
-            <button class="rounded-full w-40 h-12 bg-orange-700 dark:bg-orange-500 flex flex-row items-center justify-center space-x-3 stroke-white dark:stroke-black fill-none" on:click={() => {scrollTo({element: "#footer"})}}>
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7 inline-flex" viewBox="0 0 14 14"><g stroke-linecap="round" stroke-linejoin="round"><path d="m4 7l3 3.5L10 7m-3 3.5v-7"/><circle cx="7" cy="7" r="6.5"/></g></svg>
-                <h1 class="text-[1rem] font-semibold text-center text-white dark:text-black">
-                    Download
-                </h1>
-            </button>
+        <div class="h-[93vh] flex flex-col-reverse lg:flex-row justify-evenly items-center">
+            <div class="justify-center p-16 hidden sm:flex">
+                <img src="/images/phoenix-light-2.webp" alt="" class="block dark:hidden w-[80vw] lg:w-[40vw] drop-shadow-sm translate-y-16">
+                <img src="/images/phoenix-dark-2.webp" alt="" class="hidden dark:block w-[80vw] lg:w-[40vw] drop-shadow-sm translate-y-16">
+            </div>
+            <div class="h-[93vh] flex flex-col justify-center items-center space-y-6">  
+                <h1 class="translate-y-12 text-[5.5rem] lg:text-[8rem] xl:text-[10rem] font-bold bg-orange-gradient bg-clip-text text-transparent animate-gradient-cycle bg-200%">Phoenix</h1>
+                <h2 class="text-xl md:text-2xl lg:text-[3rem] xl:text-[4rem] font-semibold text-center text-orange-600">A beautiful macOS game launcher</h2>
+                <button class="rounded-full w-40 h-12 bg-orange-700 dark:bg-orange-500 flex flex-row items-center justify-center space-x-3 stroke-white dark:stroke-black fill-none" on:click={() => {scrollTo({element: "#footer"})}}>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7 inline-flex" viewBox="0 0 14 14"><g stroke-linecap="round" stroke-linejoin="round"><path d="m4 7l3 3.5L10 7m-3 3.5v-7"/><circle cx="7" cy="7" r="6.5"/></g></svg>
+                    <h1 class="text-[1rem] font-semibold text-center text-white dark:text-black">
+                        Download
+                    </h1>
+                </button>
+            </div>
         </div>
         <div class="w-screen flex justify-center items-center">
             <button class="bg-none items-center text-center flex flex-col fill-orange-600 text-orange-700 -translate-y-5" on:click={() => {scrollTo({element: "#page1"})}}>
@@ -59,7 +65,7 @@
                 <img src="/images/phoenix-laptop.webp" alt="" class="block dark:hidden w-[90vw] lg:w-[55vw] drop-shadow-4xl-orange">
                 <img src="/images/phoenix-laptop-dark.webp" alt="" class="hidden dark:block w-[90vw] lg:w-[55vw] drop-shadow-4xl-orange">
             </div>
-            <h2 class="font-semibold tracking-tight text-center text-3xl md:text-4xl xl:text-5xl text-orange-600">
+            <h2 class="font-semibold tracking-tight text-center text-3xl md:text-4xl xl:text-5xl text-orange-600 w-[75vw]">
                 Open source. Apple silicon native. Built with SwiftUI.
                 <br/>
                 What's not to like?
