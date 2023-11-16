@@ -11,11 +11,11 @@
 </script>
 
 <MetaTags
-  title="Phoenix Game Launcher"
+  title="Phoenix"
   description="A beautiful macOS game launcher made with SwiftUI."
   openGraph={{
-    url: 'https://www.jxhug.me/phoenix',
-    title: 'Phoenix Game Launcher',
+    url: 'https://www.phoenixlauncher.vercel.app',
+    title: 'Phoenix',
     description: 'A beautiful macOS game launcher made with SwiftUI.',
     images: [
         {
@@ -25,12 +25,12 @@
             alt: 'Phoenix Icon'
         }
     ],
-    site_name: 'Phoenix Game Launcher'
+    site_name: 'Phoenix'
   }}
   twitter={{
     handle: '@diskutility',
     cardType: 'summary_large_image',
-    title: 'Phoenix Game Launcher',
+    title: 'Phoenix',
     description: 'A beautiful macOS game launcher made with SwiftUI.',
     image: '/images/phoenix-icon.webp',
     imageAlt: 'Phoenix Icon'
