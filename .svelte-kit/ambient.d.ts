@@ -70,6 +70,7 @@ declare module '$env/static/private' {
 	export const GIT_ASKPASS: string;
 	export const INFOPATH: string;
 	export const HOMEBREW_CELLAR: string;
+	export const DISPLAY: string;
 	export const npm_node_execpath: string;
 	export const COLORTERM: string;
 	export const NODE_ENV: string;
@@ -146,6 +147,7 @@ declare module '$env/dynamic/private' {
 		GIT_ASKPASS: string;
 		INFOPATH: string;
 		HOMEBREW_CELLAR: string;
+		DISPLAY: string;
 		npm_node_execpath: string;
 		COLORTERM: string;
 		NODE_ENV: string;
