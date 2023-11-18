@@ -39,29 +39,29 @@
 
 <div class="font-apple bg-white dark:bg-offdarkergray w-screen snap-y snap-mandatory flex flex-col overflow-y-scroll" id="main">
     <div class="w-screen h-screen bg-gradient-to-b from-orange-200 dark:from-orange-900 snap-start">
-        <div class="h-[93vh] flex flex-col-reverse lg:flex-row justify-evenly items-center">
-            <div class="justify-center p-16 hidden sm:flex">
+        <div class="h-[93vh] flex flex-col lg:flex-row justify-evenly items-center">
+            <div class="justify-center p-16 flex">
                 <img src="/images/phoenix-light-2.webp" alt="" class="block dark:hidden w-[80vw] lg:w-[40vw] drop-shadow-sm">
                 <img src="/images/phoenix-dark-2.webp" alt="" class="hidden dark:block w-[80vw] lg:w-[40vw] drop-shadow-sm">
             </div>
-            <div class="h-[93vh] flex flex-col justify-center space-y-6">  
+            <div class="flex flex-col justify-center space-y-6">  
                 <div class="space-y-3">
-                    <h2 class="text-xl md:text-2xl lg:text-[3rem] xl:text-[2.5rem] leading-[45px] font-semibold text-left text-orange-600 w-96">A beautiful macOS game launcher</h2>
-                    <p class="text-xl md:text-2xl lg:text-[3rem] xl:text-[1.2rem] font-semibold text-left text-orange-600 w-96">Completely open source, built with SwiftUI, and optimized for macOS.</p>
+                    <h2 class="text-4xl lg:text-[2.5rem] leading-[45px] font-semibold text-center sm:text-left text-orange-600 w-96">A beautiful macOS game launcher</h2>
+                    <p class="text-xl lg:text-[1.2rem] font-semibold text-center sm:text-left text-orange-600 w-96">Completely open source, built with SwiftUI, and optimized for macOS.</p>
                 </div>
-                <div class="flex flex-row space-x-2 items-start justify-start">
-                    <button class="rounded-full w-40 h-12 bg-orange-700 dark:bg-orange-500 inline-flex flex-row items-center justify-center space-x-3 fill-white dark:fill-offdarkergray" on:click={download}>
+                <div class="flex flex-row space-x-2 items-start justify-center sm:justify-start">
+                    <button class="rounded-full w-40 h-12 bg-orange-700 dark:bg-orange-500 inline-flex flex-row items-center justify-center space-x-3 fill-white dark:fill-darkergray" on:click={download}>
                         <DownloadSvg/>
-                        <h1 class="text-[1rem] font-semibold text-center text-white dark:text-offdarkergray">
+                        <h1 class="text-[1rem] font-semibold text-center text-white dark:text-darkergray">
                             Download
                         </h1>
                     </button>
-                    <button class="rounded-full w-12 h-12 bg-orange-700 dark:bg-orange-500 inline-flex flex-row items-center justify-center fill-white dark:fill-offdarkergray" on:click={() => {
+                    <button class="rounded-full w-12 h-12 bg-orange-700 dark:bg-orange-500 inline-flex flex-row items-center justify-center fill-white dark:fill-darkergray" on:click={() => {
                         window.open('https://github.com/PhoenixLauncher/Phoenix/')
                     }}>
                         <GithubSvg/>
                     </button>
-                    <button class="rounded-full w-12 h-12 bg-orange-700 dark:bg-orange-500 inline-flex flex-row items-center justify-center fill-white dark:fill-offdarkergray" on:click={() => {
+                    <button class="rounded-full w-12 h-12 bg-orange-700 dark:bg-orange-500 inline-flex flex-row items-center justify-center fill-white dark:fill-darkergray" on:click={() => {
                         window.open('https://discord.gg/ZJdbcafA9Q')
                     }}>
                         <DiscordSvg/>
@@ -115,22 +115,22 @@
         </div>
     </div>
     <div id="footer" class="h-[50vh] flex flex-col lg:flex-row justify-evenly items-center snap-start relative">
-        <h2 class="font-semibold tracking-tight lg:text-left text-3xl lg:text-4xl text-orange-600 p-32 w-[80vw] lg:w-auto">
+        <h2 class="font-semibold tracking-tight text-center lg:text-left text-3xl lg:text-4xl text-orange-600 p-32 w-[80vw] lg:w-auto">
             Download today
             or contribute on GitHub
         </h2>
-        <div class="justify-center items-center inline-flex flex-row space-x-20 -translate-y-10 lg:translate-y-0">
-            <button class="rounded-full w-40 h-12 bg-orange-700 dark:bg-orange-500 inline-flex flex-row items-center justify-center space-x-2 fill-white dark:fill-darkergray" on:click={download}>
+        <div class="justify-center items-center inline-flex flex-row space-x-10 lg:space-x-20 -translate-y-10 lg:translate-y-0">
+            <button class="rounded-full w-40 h-12 bg-orange-600 inline-flex flex-row items-center justify-center space-x-2 fill-white dark:fill-darkergray" on:click={download}>
                 <DownloadSvg/>
-                <h1 class="text-[1rem] font-semibold text-center text-white dark:text-black">
+                <h1 class="text-[1rem] font-semibold text-center text-white dark:text-darkergray">
                     Download
                 </h1>
             </button>
-            <button class="rounded-full w-40 h-12 bg-orange-700 dark:bg-orange-500 inline-flex flex-row items-center justify-center space-x-2 fill-white dark:fill-darkergray" on:click={() => {
+            <button class="rounded-full w-40 h-12 bg-orange-600 inline-flex flex-row items-center justify-center space-x-2 fill-white dark:fill-darkergray" on:click={() => {
                 window.open('https://github.com/PhoenixLauncher/Phoenix/')
             }}>
                 <GithubSvg/>
-                <h1 class="text-[1rem] font-semibold text-center text-white dark:text-black">
+                <h1 class="text-[1rem] font-semibold text-center text-white dark:text-darkergray">
                     Contribute
                 </h1>
             </button>
