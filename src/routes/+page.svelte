@@ -6,7 +6,7 @@
     import DiscordSvg from "$lib/components/discord-svg.svelte";
 
     const download = () => {
-        window.open('https://github.com/PhoenixLauncher/Phoenix/releases/download/v0.0.8-alpha/Phoenix.dmg')
+        window.open('https://github.com/PhoenixLauncher/Phoenix/releases/download/v0.1.0-beta/Phoenix.dmg')
     }
 </script>
 
