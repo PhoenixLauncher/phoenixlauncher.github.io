@@ -19,7 +19,7 @@
     description: 'A beautiful macOS game launcher made with SwiftUI.',
     images: [
         {
-            url: '/images/phoenix-icon.webp',
+            url: '/images/phoenix-banner.jpg',
             width: 128,
             height: 128,
             alt: 'Phoenix Icon'
@@ -32,7 +32,7 @@
     cardType: 'summary_large_image',
     title: 'Phoenix',
     description: 'A beautiful macOS game launcher made with SwiftUI.',
-    image: '/images/phoenix-icon.webp',
+    image: '/images/phoenix-banner.jpg',
     imageAlt: 'Phoenix Icon'
   }}
 />
