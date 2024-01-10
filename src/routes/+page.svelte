@@ -5,9 +5,26 @@
     import DownloadSvg from "$lib/components/download-svg.svelte";
     import DiscordSvg from "$lib/components/discord-svg.svelte";
 
-    const download = () => {
-        window.open('https://github.com/PhoenixLauncher/Phoenix/releases/download/v0.1.1-beta/Phoenix.dmg')
-    }
+    let url = ""
+
+    const download = async () => {
+        if (!url) {
+            try {
+                const response = await fetch("https://phoenixlauncher.github.io/phoenix/appcast.xml");
+                const dataobject = await response.text();
+
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(dataobject, "application/xml");
+
+                const enclosureElement = xmlDoc.querySelector('enclosure');
+                url = enclosureElement.getAttribute('url');
+            } catch (error) {
+                console.error(error);
+            }
+            // Open the URL in a new tab
+            window.open(url, '_blank');
+        }
+    };
 </script>
 
 <MetaTags
