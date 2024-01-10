@@ -5,8 +5,6 @@
     import DownloadSvg from "$lib/components/download-svg.svelte";
     import DiscordSvg from "$lib/components/discord-svg.svelte";
 
-    let url = ""
-
     const download = async () => {
         if (!url) {
             try {
@@ -31,7 +29,7 @@
   title="Phoenix"
   description="A beautiful macOS game launcher made with SwiftUI."
   openGraph={{
-    url: 'https://www.phoenixlauncher.vercel.app',
+    url: 'https://www.phoenixlauncher.app',
     title: 'Phoenix',
     description: 'A beautiful macOS game launcher made with SwiftUI.',
     images: [
