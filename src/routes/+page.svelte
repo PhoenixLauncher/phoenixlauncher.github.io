@@ -5,6 +5,8 @@
     import DownloadSvg from "$lib/components/download-svg.svelte";
     import DiscordSvg from "$lib/components/discord-svg.svelte";
 
+    let url;
+
     const download = async () => {
         if (!url) {
             try {
