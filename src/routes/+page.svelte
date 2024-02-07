@@ -58,8 +58,8 @@
     <div class="w-screen h-screen bg-gradient-to-b from-orange-200 dark:from-orange-900 snap-start">
         <div class="h-[93vh] flex flex-col lg:flex-row justify-evenly items-center">
             <div class="justify-center p-16 flex">
-                <img src="/images/phoenix-light-2.webp" alt="" class="block dark:hidden w-[80vw] lg:w-[40vw] drop-shadow-sm">
-                <img src="/images/phoenix-dark-2.webp" alt="" class="hidden dark:block w-[80vw] lg:w-[40vw] drop-shadow-sm">
+                <img src="/images/phoenix-light-triple.webp" alt="" class="block dark:hidden w-[80vw] lg:w-[40vw] drop-shadow-sm">
+                <img src="/images/phoenix-dark-triple.webp" alt="" class="hidden dark:block w-[80vw] lg:w-[40vw] drop-shadow-sm">
             </div>
             <div class="flex flex-col justify-center space-y-6">  
                 <div class="space-y-3">
