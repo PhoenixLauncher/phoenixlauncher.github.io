@@ -79,7 +79,7 @@
                         <GithubSvg/>
                     </button>
                     <button class="rounded-full w-12 h-12 bg-orange-700 dark:bg-orange-500 inline-flex flex-row items-center justify-center fill-white dark:fill-darkergray" on:click={() => {
-                        window.open('https://discord.gg/ZJdbcafA9Q')
+                        window.open('https://discord.gg/m8uvhDMzrK')
                     }}>
                         <DiscordSvg/>
                     </button>
