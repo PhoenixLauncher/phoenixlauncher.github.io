@@ -58,8 +58,8 @@
     <div class="w-screen h-screen bg-gradient-to-b from-orange-200 dark:from-orange-900 snap-start">
         <div class="h-[93vh] flex flex-col lg:flex-row justify-evenly items-center">
             <div class="justify-center p-16 flex">
-                <img src="/images/phoenix-light-triple.webp" alt="" class="block dark:hidden w-[80vw] lg:w-[50vw] drop-shadow-sm">
-                <img src="/images/phoenix-dark-triple.webp" alt="" class="hidden dark:block w-[80vw] lg:w-[50vw] drop-shadow-sm">
+                <img src="/images/phoenix-light-triple.webp" alt="" class="block dark:hidden w-[400px] lg:w-[50vw] drop-shadow-sm">
+                <img src="/images/phoenix-dark-triple.webp" alt="" class="hidden dark:block w-[400px] lg:w-[50vw] drop-shadow-sm">
             </div>
             <div class="flex flex-col justify-center space-y-6">  
                 <div class="space-y-3">
@@ -96,8 +96,8 @@
     <div class="h-screen flex flex-col items-center justify-start snap-start relative" id="page1">
         <div class="h-[93vh] flex flex-col justify-center items-center p-10">  
             <div class="justify-center flex p-16">
-                <img src="/images/phoenix-laptop.webp" alt="" class="block dark:hidden w-[90vw] lg:w-[55vw] drop-shadow-4xl-orange">
-                <img src="/images/phoenix-laptop-dark.webp" alt="" class="hidden dark:block w-[90vw] lg:w-[55vw] drop-shadow-4xl-orange">
+                <img src="/images/phoenix-laptop.webp" alt="" class="block dark:hidden w-[400px] lg:w-[55vw] drop-shadow-4xl-orange">
+                <img src="/images/phoenix-laptop-dark.webp" alt="" class="hidden dark:block w-[400px] lg:w-[55vw] drop-shadow-4xl-orange">
             </div>
             <h2 class="font-semibold tracking-tight text-center text-3xl md:text-4xl xl:text-5xl text-orange-600 w-[75vw]">
                 Open source. Apple silicon native. Built with SwiftUI.
@@ -120,8 +120,8 @@
                 beautiful macOS interface.
             </h2>
             <div class="justify-center flex p-16">
-                <img src="/images/phoenix-side.webp" alt="" class="block dark:hidden w-[80vw] lg:w-[45vw] drop-shadow-sm">
-                <img src="/images/phoenix-side-dark.webp" alt="" class="hidden dark:block w-[80vw] lg:w-[45vw] drop-shadow-sm">
+                <img src="/images/phoenix-side.webp" alt="" class="block dark:hidden w-[350px] lg:w-[45vw] drop-shadow-sm">
+                <img src="/images/phoenix-side-dark.webp" alt="" class="hidden dark:block w-[350px] lg:w-[45vw] drop-shadow-sm">
             </div>
         </div>
         <div class="w-screen flex justify-center items-center">
