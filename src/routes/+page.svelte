@@ -5,25 +5,9 @@
     import DownloadSvg from "$lib/components/download-svg.svelte";
     import DiscordSvg from "$lib/components/discord-svg.svelte";
 
-    let url;
-
     const download = async () => {
-        if (!url) {
-            try {
-                const response = await fetch("https://phoenixlauncher.github.io/phoenix/appcast.xml");
-                const dataobject = await response.text();
-
-                const parser = new DOMParser();
-                const xmlDoc = parser.parseFromString(dataobject, "application/xml");
-
-                const enclosureElement = xmlDoc.querySelector('enclosure');
-                url = enclosureElement.getAttribute('url');
-            } catch (error) {
-                console.error(error);
-            }
-        }
         // Open the URL in a new tab
-        window.open(url, '_blank');
+        window.open("https://github.com/phoenixlauncher/phoenix/releases/latest/download/Phoenix.dmg", '_blank');
     };
 </script>
 
@@ -61,7 +45,7 @@
                 <img src="/images/phoenix-light-triple.webp" alt="" class="block dark:hidden w-[400px] lg:w-[50vw] drop-shadow-sm">
                 <img src="/images/phoenix-dark-triple.webp" alt="" class="hidden dark:block w-[400px] lg:w-[50vw] drop-shadow-sm">
             </div>
-            <div class="flex flex-col justify-center space-y-6">  
+            <div class="flex flex-col justify-center space-y-6">
                 <div class="space-y-3">
                     <h2 class="text-4xl lg:text-[2.5rem] leading-[45px] font-semibold text-center sm:text-left text-orange-600 w-96">A beautiful macOS game launcher</h2>
                     <p class="text-xl lg:text-[1.2rem] font-semibold text-center sm:text-left text-orange-600 w-96">Completely open source, built with SwiftUI, and optimized for macOS.</p>
@@ -94,7 +78,7 @@
         </div>
     </div>
     <div class="h-screen flex flex-col items-center justify-start snap-start relative" id="page1">
-        <div class="h-[93vh] flex flex-col justify-center items-center p-10">  
+        <div class="h-[93vh] flex flex-col justify-center items-center p-10">
             <div class="justify-center flex p-16">
                 <img src="/images/phoenix-laptop.webp" alt="" class="block dark:hidden w-[400px] lg:w-[55vw] drop-shadow-4xl-orange">
                 <img src="/images/phoenix-laptop-dark.webp" alt="" class="hidden dark:block w-[400px] lg:w-[55vw] drop-shadow-4xl-orange">
@@ -113,9 +97,9 @@
         </div>
     </div>
     <div class="h-screen items-center" id="page2">
-        <div class="h-[93vh] flex flex-col-reverse lg:flex-row justify-evenly items-center">  
+        <div class="h-[93vh] flex flex-col-reverse lg:flex-row justify-evenly items-center">
             <h2 class="font-semibold tracking-tight text-center lg:text-left text-4xl lg:text-5xl text-orange-600 w-[80vw] lg:w-auto">
-                A lightweight and 
+                A lightweight and
                 <br/>
                 beautiful macOS interface.
             </h2>
