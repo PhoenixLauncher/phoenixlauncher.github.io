@@ -39,7 +39,7 @@
 />
 
 <div class="font-apple bg-white dark:bg-offdarkergray w-screen snap-y snap-mandatory flex flex-col overflow-y-scroll" id="main">
-    <div class="w-screen h-screen bg-gradient-to-b from-orange-200 dark:from-orange-900 snap-start">
+    <div class="w-screen h-screen bg-gradient-to-b from-orange-100 dark:from-orange-900 snap-start">
         <div class="h-[93vh] flex flex-col lg:flex-row justify-evenly items-center">
             <div class="justify-center p-16 flex">
                 <img src="/images/phoenix-light-triple.webp" alt="" class="block dark:hidden w-[400px] lg:w-[50vw] drop-shadow-sm">
