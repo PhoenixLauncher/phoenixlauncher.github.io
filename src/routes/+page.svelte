@@ -7,7 +7,8 @@
 
     const download = async () => {
         // Open the URL in a new tab
-        window.open("https://github.com/phoenixlauncher/phoenix/releases/latest/download/Phoenix.dmg", '_blank');
+        //window.open("https://github.com/phoenixlauncher/phoenix/releases/latest/download/Phoenix.dmg", '_blank');
+	window.open("https://github.com/phoenixlauncher/phoenix/releases/download/v0.1.9-beta/Phoenix.dmg", '_blank'); // temp patch
     };
 </script>
 
